@@ -33,10 +33,8 @@ Go into the new directory.
 In your command line ,clone the repository : git clone https://github.com/tammydagan/cloudinary
 
 ### Compile and run 
-Option one: build locally
-  Build the project:  without tests, hit mvn clean install -DskipTests, With tests: mvn clean install
-  This will create a snapshot of the application under cloudinary-0.0.1-SNAPSHOT.jar
-Option two: use existing snapshot in target/cloudinary-0.0.1-SNAPSHOT.jar
+Build the project:  without tests, hit mvn clean package.
+This will create a snapshot of the application in target/cloudinary-0.0.1-SNAPSHOT.jar 
 
 To run the application: java -jar target/cloudinary-0.0.1-SNAPSHOT.jar. This 
 Now, in order to test the application locally, test it against http://localhost:8080/ .
